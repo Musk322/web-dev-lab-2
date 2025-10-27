@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    padding-top:120px;
+    padding:0;
+    margin:0;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-color: #003580;
+    padding: 15px 0;
+    z-index:1000;
+    font-weight: bold;
+    
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #93c2c9;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+
+#skills table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#skills th, #skills td {
+    border: 1px solid #457b9d;
+    padding: 8px;
+}
+
+#skills th {
+    background-color: #457b9d;
+    color: white;
+}
+
+#projects ul {
+    text-align: left;
+    width:80%;
+    margin:0 auto;
+}
+
+#projects li {
+    background-color: #e0f7f9;
+    margin:8px 0;
+    padding:8px;
+    border-radius: 6px;
+    border-left: 4px solid #457b9d;
+}
+
+form {
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 8px;
+    border: 1px solid #457b9d;
+    border-radius: 8px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+form button {
+    display: block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    background-color: #004aad;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003580;
+}
+
+footer {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.back-btn {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
